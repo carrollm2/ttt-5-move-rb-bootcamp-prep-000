@@ -11,7 +11,7 @@ def input_to_index(gets)
   index = gets.to_i - 1
 end
 
-def move(board, index, value = "X")
+def move(board, index, "X")
   index = input_to_index(gets.strip)
   board[index] = value
 end
