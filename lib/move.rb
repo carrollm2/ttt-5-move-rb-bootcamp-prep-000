@@ -12,6 +12,6 @@ def input_to_index(gets)
 end
 
 def move(board, index, value = "X")
-  index = input_to_index(gets.strip)
+  #index = input_to_index(gets.strip)
   board[index] = value
 end
